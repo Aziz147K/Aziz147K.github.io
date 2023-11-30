@@ -1,3 +1,31 @@
-div {
+@media (min-width: 576px) {
+  .icon-img {
+    width: 70px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon-img {
+    width: 90px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img-hero {
+    width: 893px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img-card {
+    margin-left: 197px;
+  }
+}
+
+.btn {
+  border-style: none;
+  background: #00642e;
 }
 
