@@ -24,8 +24,39 @@
   }
 }
 
-.btn {
-  border-style: none;
+a {
+  text-decoration: none;
+}
+
+.btn-green {
   background: #00642e;
+  border: none;
+  transition: all ease .5s;
+  cursor: pointer;
+}
+
+.btn-green:hover {
+  background: #02823b;
+}
+
+.btn-green-1 {
+  background: #7bc440;
+  border-style: none;
+  transition: all ease .5s;
+}
+
+.btn-green-1:hover {
+  background: #67be20;
+  /*border-style: none;*/
+}
+
+.icon {
+  color: #ffffff;
+  transition: all ease .3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #7bc440;
 }
 
