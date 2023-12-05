@@ -18,12 +18,6 @@
   }
 }
 
-@media (min-width: 1400px) {
-  .img-card {
-    margin-left: 197px;
-  }
-}
-
 a {
   text-decoration: none;
 }
@@ -58,5 +52,16 @@ a {
 
 .icon:hover {
   color: #7bc440;
+}
+
+.img-card-1 {
+}
+
+@media (min-width: 1400px) {
+  .img-card.img-card-1 {
+    margin-left: -20px;
+    width: 709px;
+    margin-top: -97px;
+  }
 }
 
