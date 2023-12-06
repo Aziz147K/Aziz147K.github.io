@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>ahire</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ADLaM+Display&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit&amp;display=swap">
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -14,14 +16,14 @@
 <body style="font-family: Outfit, sans-serif;">
     <nav class="navbar navbar-expand-md sticky-top shadow-sm py-3" style="background: var(--bs-body-bg);">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img src="assets/img/Logos/cropped-LOGO-AHIRE-V2-768x266.png" style="width: 129px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse fw-semibold" id="navcol-3" style="font-size: 16px;color: #0a661a;">
+            <div class="collapse navbar-collapse fw-semibold" id="navcol-3" style="font-size: 20px;color: #0a661a;">
                 <ul class="navbar-nav mx-auto" style="color: rgb(10, 102, 26);">
                     <li class="nav-item" style="color: #0a661a;"><a class="nav-link active" href="index.html" style="padding-right: 15px;padding-left: 15px;color: #0a661a;">Accueil</a></li>
                     <li class="nav-item dropdown" style="color: #0a661a;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: #0a661a;padding-right: 15px;padding-left: 15px;">Solutions&nbsp;</a>
-                        <div class="dropdown-menu shadow" style="color: #0a661a;"><a class="dropdown-item" href="Nos%20solutions%20-%20Gestion%20santé%20Entreprise%20&amp;.html" style="color: #0a661a;">Gestion Santé Entreprise</a><a class="dropdown-item" href="Nos%20solutions%20-%20Application%20sante.html" style="color: #0a661a;">Application Santé</a><a class="dropdown-item" href="Nos%20solutions%20-%20Carte%20sante.html" style="color: #0a661a;">Carte Santé</a></div>
+                        <div class="dropdown-menu shadow" style="color: #0a661a;font-size: 16px;"><a class="dropdown-item" href="Nos%20solutions%20-%20Gestion%20santé%20Entreprise%20&amp;.html" style="color: #0a661a;">Gestion Santé Entreprise</a><a class="dropdown-item" href="Nos%20solutions%20-%20Application%20sante.html" style="color: #0a661a;">Application Santé</a><a class="dropdown-item" href="Nos%20solutions%20-%20Carte%20sante.html" style="color: #0a661a;">Carte Santé</a></div>
                     </li>
-                    <li class="nav-item dropdown" style="color: #0a661a;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: #0a661a;padding-right: 15px;padding-left: 15px;">Services&nbsp;</a>
-                        <div class="dropdown-menu shadow" style="color: #0a661a;"><a class="dropdown-item" href="#" style="color: #0a661a;">First Item</a><a class="dropdown-item" href="#" style="color: #0a661a;">Second Item</a><a class="dropdown-item" href="#" style="color: #0a661a;">Third Item</a></div>
+                    <li class="nav-item dropdown" style="color: #0a661a;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: #0a661a;padding-right: 15px;padding-left: 15px;">Offres&nbsp;</a>
+                        <div class="dropdown-menu shadow" style="color: #0a661a;"><a class="dropdown-item" href="Offres%20-%20Entreprises.html" style="color: #0a661a;">Entreprises</a><a class="dropdown-item" href="Offres%20-%20Particuliers.html" style="color: #0a661a;">Particuliers</a></div>
                     </li>
                     <li class="nav-item dropdown" style="color: #0a661a;"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: #0a661a;padding-right: 15px;padding-left: 15px;">Blogs</a>
                         <div class="dropdown-menu shadow" style="color: #0a661a;"><a class="dropdown-item" href="#" style="color: #0a661a;">First Item</a><a class="dropdown-item" href="#" style="color: #0a661a;">Second Item</a><a class="dropdown-item" href="#" style="color: #0a661a;">Third Item</a></div>
@@ -32,14 +34,43 @@
         </div>
     </nav>
     <section class="d-block pb-0 mb-0 mt-0 pt-4 section-hero pt-xxl-5 mb-xxl-0 mt-xxl-0 pb-xxl-5" data-bss-scroll-zoom="true" data-bss-scroll-zoom-speed="0.4" style="overflow: hidden;height: auto;background-image: url(&quot;assets/img/Images/hero%20page%20bg.png&quot;);background-position: center;background-size: cover;">
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-2" style="border-radius: 226px;">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="border-style: none;">
+                        <h2 class="modal-title fw-bold" style="color: #00642e;margin-left: 14px;">Choisissez votre offre&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-down-short">
+                                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"></path>
+                            </svg></h2><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body" style="border-style: none;padding: 22px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div style="height: 239.25px;overflow: hidden;background: linear-gradient(178deg, rgba(0,100,46,0.11), #00642e), url(&quot;assets/img/new-male-employee-conversing-with-female-colleagues-his-new-office-job.jpg&quot;) center / cover;border-top-left-radius: 6px;"></div>
+                                    <div><a href="Offres%20-%20Entreprises.html">
+                                            <h1 class="text-center" style="background: #00642e;color: rgb(255,255,255);padding-top: 5px;padding-bottom: 11px;border-bottom-left-radius: 6px;">Offres Entreprises</h1>
+                                        </a></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div style="height: 239.25px;overflow: hidden;background: linear-gradient(178deg, rgba(0,100,46,0.11), #00642e), url(&quot;assets/img/people-with-glasses-composition.jpg&quot;) center / cover;border-top-right-radius: 6px;"></div>
+                                    <div><a href="Offres%20-%20Particuliers.html">
+                                            <h1 class="text-center" style="padding-top: 5px;padding-bottom: 10px;background: #00642e;color: rgb(255,255,255);border-bottom-right-radius: 6px;">Offres Particuliers</h1>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col d-sm-none"><img src="assets/img/Images/hero-image-01.png" style="width: 329px;"></div>
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 d-flex align-items-center pt-0 mt-0 ps-md-5 pe-md-5 pe-sm-5 ps-sm-5 pe-xxl-0 ps-xxl-0" style="padding-bottom: 60px;">
                     <div class="text-center d-xxl-flex flex-column justify-content-center align-items-center justify-content-xxl-center ps-0 mt-4" style="padding-left: 40px;margin-top: 87px;">
-                        <h1 class="fw-bold text-center d-xxl-flex" style="color: #0a661a;"><strong>Ahiré, votre solution de gestion santé pour entreprises et particuliers</strong></h1>
+                        <h1 class="fw-bold text-center d-xxl-flex" style="color: #0a661a;font-family: Outfit, sans-serif;"><strong>Ahiré, votre solution de gestion santé pour entreprises et particuliers</strong></h1>
                         <p class="text-center" style="color: #7bc440;">Se soigner devrait être toujours être simple, facile, agréable et surtout à la porté de tous. Bienvenue sur Ahiré.</p>
-                        <div></div><button class="btn btn-primary shadow btn-green" data-aos="fade-up" data-aos-duration="800" type="button" style="padding-top: 15px;padding-right: 75px;padding-bottom: 15px;padding-left: 75px;border-radius: 40px;border-style: none;margin: 10px;">Voir nos offres</button><button class="btn btn-primary shadow btn-green-1" data-aos="fade-up" data-aos-duration="900" data-aos-delay="50" type="button" style="padding-top: 15px;padding-right: 60px;padding-bottom: 15px;padding-left: 60px;border-radius: 40px;border-style: none;margin: 10px;">faire une demande</button>
+                        <div></div><button class="btn btn-primary shadow btn-green" data-aos="fade-up" data-aos-duration="800" type="button" style="padding-top: 15px;padding-right: 75px;padding-bottom: 15px;padding-left: 75px;border-radius: 40px;border-style: none;margin: 10px;" data-bs-target="#modal-2" data-bs-toggle="modal">Voir nos offres</button><button class="btn btn-primary shadow btn-green-1" data-aos="fade-up" data-aos-duration="900" data-aos-delay="50" type="button" style="padding-top: 15px;padding-right: 60px;padding-bottom: 15px;padding-left: 60px;border-radius: 40px;border-style: none;margin: 10px;">faire une demande</button>
                     </div>
                 </div>
             </div>
@@ -62,7 +93,7 @@
             </div>
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 col-xxl-11 text-center mx-auto">
-                    <h2><strong><span style="color: rgb(10, 102, 26);">Avec Ahiré vous pouvez faire :</span></strong></h2>
+                    <h2 style="font-family: 'ADLaM Display', serif;"><strong><span style="color: rgb(10, 102, 26);">Avec Ahiré vous pouvez faire :</span></strong></h2>
                 </div>
             </div>
             <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="margin-bottom: 40pxpx;">
@@ -144,7 +175,7 @@
                     <div>
                         <p class="fw-bold text-muted mb-0">GSE</p>
                         <h1 class="fs-1 fw-bold" style="color: #0a661a;">Gestion Santé Entreprise</h1>
-                        <p class="fs-4 fw-light" style="color: #7bc440;">Gérez facilement et efficacement la santé du personnel de votre entreprise.</p><a class="btn btn-primary btn-green" role="button" style="padding-top: 15px;padding-right: 70px;padding-bottom: 15px;padding-left: 70px;border-radius: 30px;font-size: 20px;">Voir plus&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="font-size: 25px;">
+                        <p class="fs-4 fw-light" style="color: #7bc440;">Gérez facilement et efficacement la santé du personnel de votre entreprise.</p><a class="btn btn-primary btn-green" role="button" style="padding-top: 10px;padding-right: 70px;padding-bottom: 10px;padding-left: 70px;border-radius: 30px;font-size: 20px;" href="Nos%20solutions%20-%20Gestion%20santé%20Entreprise%20&amp;.html" target="_top">Voir plus&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="font-size: 25px;">
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                             </svg></a>
                     </div>
@@ -155,7 +186,7 @@
                     <div>
                         <p class="fw-bold text-muted mb-0">Pass santé</p>
                         <h1 class="fs-1 fw-bold" style="color: #0a661a;">Carte Santé</h1>
-                        <p class="fs-4 fw-light" style="color: #7bc440;">Votre carte santé Ahiré multi-fonction&nbsp;&nbsp;</p><a class="btn btn-primary btn-green" role="button" style="padding-top: 15px;padding-right: 70px;padding-bottom: 15px;padding-left: 70px;border-radius: 30px;font-size: 20px;">Voir plus&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="font-size: 25px;">
+                        <p class="fs-4 fw-light" style="color: #7bc440;">Votre carte santé Ahiré multi-fonction&nbsp;&nbsp;</p><a class="btn btn-primary btn-green" role="button" style="padding-top: 10px;padding-right: 70px;padding-bottom: 10px;padding-left: 70px;border-radius: 30px;font-size: 20px;" href="Nos%20solutions%20-%20Carte%20sante.html">Voir plus&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="font-size: 25px;">
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                             </svg></a>
                     </div>
@@ -168,7 +199,7 @@
                     <div>
                         <p class="fw-bold text-muted mb-0">App Santé</p>
                         <h1 class="fs-1 fw-bold" style="color: #0a661a;">L'application santé</h1>
-                        <p class="fs-4 fw-light" style="color: #7bc440;">Gérez facilement et efficacement la santé du personnel de votre entreprise.</p><a class="btn btn-primary btn-green" role="button" style="padding-top: 15px;padding-right: 70px;padding-bottom: 15px;padding-left: 70px;border-radius: 30px;font-size: 20px;">Voir plus&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="font-size: 25px;">
+                        <p class="fs-4 fw-light" style="color: #7bc440;">Gérez facilement et efficacement la santé du personnel de votre entreprise.</p><a class="btn btn-primary btn-green" role="button" style="padding-top: 10px;padding-right: 70px;padding-bottom: 10px;padding-left: 70px;border-radius: 30px;font-size: 20px;" href="Nos%20solutions%20-%20Application%20sante.html">Voir plus&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right" style="font-size: 25px;">
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                             </svg></a>
                     </div>
@@ -194,7 +225,7 @@
         <div class="container py-4 py-xl-5" style="max-width: 1000px;margin-bottom: 30px;">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-12 col-xxl-12 text-center d-xl-flex mx-auto align-items-xl-center">
-                    <h1 style="color: #0a661a;margin-bottom: 31px;"><strong>Mme Ruth Amani utilise notre solution Gestion Santé des Entreprise depuis bientôt&nbsp;2 ans.</strong></h1>
+                    <h1 style="color: #0a661a;margin-bottom: 31px;font-family: 'ADLaM Display', serif;"><strong>Mme Ruth Amani utilise notre solution Gestion Santé des Entreprise depuis bientôt&nbsp;2 ans.</strong></h1>
                 </div>
                 <div class="col-md-8 col-xl-12 col-xxl-12 text-center mx-auto" style="padding: 0px;height: 572px;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/yUpZxxMpy_o?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=yUpZxxMpy_o" width="560" height="315" style="width: 100%;height: 100%;"></iframe></div>
             </div>
@@ -215,7 +246,7 @@
                     </div>
                 </div>
                 <form class="d-flex justify-content-center flex-wrap" method="post">
-                    <div class="mb-3"><input class="shadow form-control form-control-lg" type="email" name="email" placeholder="Your Email" readonly="" autofocus="" autocomplete="on" inputmode="email" required="" style="width: 671px;padding-top: 20px;padding-bottom: 20px;border-radius: 40px;font-family: Outfit, sans-serif;"></div>
+                    <div class="mb-3"><input class="shadow form-control form-control-lg" type="email" name="email" placeholder="Entrer votre email" inputmode="email" style="width: 671px;padding-top: 20px;padding-bottom: 20px;border-radius: 40px;font-family: Outfit, sans-serif;" required=""></div>
                     <div class="mb-3" style="position: absolute;margin-left: 474px;"><button class="btn btn-primary ms-2 btn-green-1" data-aos="fade-right" data-aos-duration="1000" type="submit" style="padding-top: 19.5px;padding-bottom: 19.5px;font-size: 22px;font-family: Outfit, sans-serif;padding-right: 50px;padding-left: 50px;border-radius: 40px;">S'inscrire</button></div>
                 </form>
             </div>

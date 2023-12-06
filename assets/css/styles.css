@@ -12,12 +12,6 @@
   }
 }
 
-@media (min-width: 1400px) {
-  .img-hero {
-    width: 893px;
-  }
-}
-
 a {
   text-decoration: none;
 }
@@ -55,13 +49,5 @@ a {
 }
 
 .img-card-1 {
-}
-
-@media (min-width: 1400px) {
-  .img-card.img-card-1 {
-    margin-left: -20px;
-    width: 709px;
-    margin-top: -97px;
-  }
 }
 
