@@ -12,8 +12,16 @@
   }
 }
 
-a {
+.offert-dot:hover {
   text-decoration: none;
+  background: #d9ffdf;
+  transition: all ease .5s;
+}
+
+.offert-dot {
+  text-decoration: none;
+  transition: all ease .5s;
+  cursor: pointer;
 }
 
 .btn-green {
@@ -35,7 +43,7 @@ a {
 
 .btn-green-1:hover {
   background: #67be20;
-  /*border-style: none;*/
+  border-style: none;
 }
 
 .icon {
@@ -49,5 +57,9 @@ a {
 }
 
 .img-card-1 {
+}
+
+a {
+  text-decoration: none;
 }
 
